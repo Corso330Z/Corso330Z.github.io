@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&family=Tac+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+h1{ 
+    margin-left: 10px;
+    margin-top: 1px;
+    text-decoration: underline 1px;
+}
+.div_paragrafo {
+    margin-left: 40px;
+    margin-right: 70px;
+}
+span {
+    font-weight: bold;
+}
+p {
+    text-indent: 0.5cm;
+    margin-top: 5;
+    font-family: 'Times New Roman', Times, serif;	
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+h2 {
+    margin-left: 40px;
+}
+.refe {
+    margin-left: 40px;
+    margin-right: 100px;
+}
+.refe ol{
+    border: solid;
+    border-color: rgba(204, 123, 48, 0.808);
+    background-color: burlywood;
+    border-radius: 7px;
+    margin-right: 800px;
+}
+line {
+    margin-top: 50px;
+}
+a {
+    line-height: 25px;
+    text-decoration: none;
+}
+body{
+    background-color: white;
+}
+img {
+    height: 400px;
+    width: 320px;
+    border: solid 10px;
+    border-radius: 7px;
+    border-color: peru;
+}
+#div_index {
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+#img_index {
+    margin-top: 30px;
+    margin-right: 100px;
+}
+.cabe {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    background-color:rgba(204, 123, 48, 0.808) ;
+}
+.cabe h2 {
+    
+    font-family: "Tac One", sans-serif; font-weight: 400; font-style: normal;
+}
+.cabe li{
+    display: inline;
+}
+.cabe li a{
+    margin: 0 auto;
+    text-decoration: none;
+    padding: 20px;
+    color: green;
+    display: inline-block;
+    font-family: "Rakkas", serif; font-weight: 400; font-style: normal;
+    transition: background .4s;
+}
+.cabe li:last-child a{
+    color: black;
+    float: right;
+    background-color:  rgba(204, 123, 48, 0.808);
+    height: 100%;
+}
+.cabe li a:hover{
+    background-color: lightblue;
+}
+.menu_nav {
+    margin-top: 10px;
+}
+.refe_pessoas {
+    border: solid;
+    border-color: rgba(204, 123, 48, 0.808);
+    background-color: burlywood;
+    border-radius: 7px;
+    margin-right: 800px;
+}
