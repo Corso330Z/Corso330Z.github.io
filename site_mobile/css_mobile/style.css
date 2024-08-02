@@ -1,0 +1,134 @@
+body {
+    background-color: black;
+    background-image: url('/img_mobile/fundo-tela.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20% 40%;
+    background-attachment: fixed;
+
+}
+
+.img_personagens {
+    width: 90%;
+    height: 288px;
+    min-width: 80%;
+    min-width: 60%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+h1 {
+    color: gainsboro;
+}
+
+h2 {
+    color: gainsboro;
+}
+
+h3 {
+    color: gainsboro;
+}
+
+p {
+    color: white
+}
+
+.div-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 15px;
+}
+
+.div-card {
+    width: 30%;
+    min-width: 280px;
+    border: 10px solid gray;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.div_par {
+    border: 3px solid;
+    border-radius: 7px;
+    padding: 5px;
+    border-color: rgb(20, 20, 20);
+    background-color: rgb(55, 55, 55);
+    text-indent: 15px;
+    align-items: center;
+    line-height: 17px;
+}
+
+.img_kama {
+    width: 90%;
+    height: 288px;
+    min-width: 80%;
+    min-width: 60%;
+}
+
+.img_html {
+    width: 40%;
+    height: 50%;
+    min-width: 30%;
+    min-width: 40%;
+}
+
+.div_par_card {
+    border: 3px solid;
+    border-radius: 7px;
+    padding: 15pxpx;
+    border-color: rgb(20, 20, 20);
+    background-color: rgb(55, 55, 55);
+    text-indent: 15px;
+    text-align: justify;
+    line-height: 17px;
+}
+
+.text {
+    width: 80%;
+    padding-left: 10%;
+    text-align: center;
+}
+
+.infor {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.img_hashi {
+    width: 95%;
+    height: 288px;
+    min-width: 80%;
+    min-width: 60%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.img_lower {
+    width: 90%;
+    height: 220px;
+    min-width: 80%;
+    min-width: 60%;
+}
+
+.div-card2 {
+    width: 35%;
+    min-width: 280px;
+    border: 10px solid gray;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bold_in {
+    font-weight: bold;
+    text-indent: 15px;
+}
