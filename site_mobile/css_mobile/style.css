@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    background-image: url('/img_mobile/fundo-tela.png');
+    background-image: url('/site_mobile/img_mobile/fundo-tela.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20% 40%;
@@ -9,10 +9,9 @@ body {
 }
 
 .img_personagens {
-    width: 90%;
+    width: 400px;
     height: 288px;
-    min-width: 80%;
-    min-width: 60%;
+    min-width: 90%;
     padding-left: 5%;
     padding-bottom: 5%;
 }
@@ -43,7 +42,7 @@ p {
 }
 
 .div-card {
-    width: 30%;
+    width: 30vw;
     min-width: 280px;
     border: 10px solid gray;
     border-radius: 15px;
@@ -65,7 +64,7 @@ p {
 }
 
 .img_kama {
-    width: 90%;
+    width: 100%;
     height: 288px;
     min-width: 80%;
     min-width: 60%;
@@ -101,10 +100,9 @@ p {
 }
 
 .img_hashi {
-    width: 95%;
+    width: 350px;
     height: 288px;
-    min-width: 80%;
-    min-width: 60%;
+    min-width: 100%;
 }
 
 .bold {
@@ -131,4 +129,18 @@ p {
 .bold_in {
     font-weight: bold;
     text-indent: 15px;
+}
+
+.img_mestres {
+    width: 90%;
+    height: 35%;
+    min-width: 80%;
+    min-width: 60%;
+}
+
+.kime_img {
+    width: 280px;
+    height: 358px;
+    min-height: 100%;
+    min-width: 100%;
 }
