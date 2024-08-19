@@ -6,50 +6,107 @@
     <title>Personagens</title>
     <meta name="descripition" content="Página apresentando os personagens mais importantes para a história do anime.">
     <link rel="stylesheet" href="css_mobile/style.css">
+    <link rel="stylesheet" href="css_mobile/header.css">
 </head>
 <body>
-    <section>
-        <div class="text">
-            <h2 style="color: red;">Personagens</h2>
-        </div>
-    </section>
-    <section>
-        <div class="div-cards">
-            <div class="div-card">
-                <h2> Kamaboko squad </h2>
-                <a href="kamaboko.html"><img class="img_personagens" src="img_mobile/kamaboko_capa.jpg" alt="Imagem dos hashiras"></a>
+    <header>
+        <div class="header" id="header">
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+            </button>
+            <div class="logo_header">
+                <img src="img_mobile/logo_ck_png.png" class="img_logo_header" alt="Logo CK">
             </div>
-
-            <div class="div-card">
-                <h2>Hashiras</h2>
-                <a href="hashiras.html"><img class="img_personagens" src="img_mobile/hashiras_capa.jpg" alt="imagem do kamaboko squad"></a>
-            </div>
-
-            <div class="div-card">
-                <h2>Luas inferiores</h2>
-                <a href="lowermoons.html"><img class="img_personagens" src="img_mobile/lowermoons_capa.jpg" alt="Imagem dos luas inferiores"></a>
-            </div>
-
-            <div class="div-card">
-                <h2>Luas superiores</h2>
-                <a href="uppermoons.html"><img class="img_personagens" src="img_mobile/uppermoons_capa.webp" alt="Imagem dos luas superiores"></a>
-            </div>
-
-            <div class="div-card">
-                <h2>Mestres</h2>
-                <a href="mestres.html"><img class="img_personagens" src="img_mobile/mestres-capa.webp" alt="Imagem do Kagaya e do Muzan"></a>
-            </div>
-
-            <div class="div-card">
-                <h2>Tamayo e Yushiro</h2>
-                <a href="tameyus.html"><img class="img_personagens" src="img_mobile/tamayo.jpeg" alt="Imagem da Tamayo e do Yushiro"></a>
-            </div>
-
-            <div class="div-card">
-                <h2>Yoriichi</h2>
-                <a href="yoriichi.html"><img class="img_personagens" src="img_mobile/yoriichi_capa.webp" alt="Imagem do Yoriichi"></a>
+            <div class="navigation_header" id="navigation_header">
+                <button onclick="toggleSidebar()" class="btn_icon_header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                    </svg>
+                </button>
+                <a href="index.html" class="active">Home</a>
+                <a href="sobre.html">Sobre nós</a>
+                <a href="contatos.html">Contato</a>
             </div>
         </div>
-    </section>
+    </header>
+    <main tabindex="0" onclick="closeSidebar()" class="content" id="content">
+        <section>
+            <div class="text">
+                <h2 style="color: red;">Personagens</h2>
+            </div>
+        </section>
+        <section>
+            <div class="div-cards">
+                <div class="div-card">
+                    <h2> Kamaboko squad </h2>
+                    <a href="kamaboko.html"><img class="img_personagens" src="img_mobile/kamaboko_capa.jpg" alt="Imagem dos hashiras"></a>
+                </div>
+                <div class="div-card">
+                    <h2>Hashiras</h2>
+                    <a href="hashiras.html"><img class="img_personagens" src="img_mobile/hashiras_capa.jpg" alt="imagem do kamaboko squad"></a>
+                </div>
+                <div class="div-card">
+                    <h2>Luas inferiores</h2>
+                    <a href="lowermoons.html"><img class="img_personagens" src="img_mobile/lowermoons_capa.jpg" alt="Imagem dos luas inferiores"></a>
+                </div>
+                <div class="div-card">
+                    <h2>Luas superiores</h2>
+                    <a href="uppermoons.html"><img class="img_personagens" src="img_mobile/uppermoons_capa.webp" alt="Imagem dos luas superiores"></a>
+                </div>
+                <div class="div-card">
+                    <h2>Mestres</h2>
+                    <a href="mestres.html"><img class="img_personagens" src="img_mobile/mestres-capa.webp" alt="Imagem do Kagaya e do Muzan"></a>
+                </div>
+                <div class="div-card">
+                    <h2>Tamayo e Yushiro</h2>
+                    <a href="tameyus.html"><img class="img_personagens" src="img_mobile/tamayo.jpeg" alt="Imagem da Tamayo e do Yushiro"></a>
+                </div>
+                <div class="div-card">
+                    <h2>Yoriichi</h2>
+                    <a href="yoriichi.html"><img class="img_personagens" src="img_mobile/yoriichi_capa.webp" alt="Imagem do Yoriichi"></a>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
+<script>
+    var header = document.getElementById('header');
+    var navigationHeader = document.getElementById('navigation_header')
+    var content = document.getElementById('content')
+    var showSidebar = false;
+
+    function toggleSidebar ()
+    {
+        showSidebar = !showSidebar;
+        if(showSidebar)
+        {
+            navigationHeader.style.marginLeft = '-10vw';
+            navigationHeader.style.animationName = 'showSidebar';
+            content.style.filter = 'blur(2px)'
+        }
+        else {
+            navigationHeader.style.marginLeft = '-100vw';
+            navigationHeader.style.animationName = '';
+            content.style.filter = ''
+        }
+    }
+
+    function closeSidebar() 
+    {
+        if(showSidebar)
+        {
+            toggleSidebar();
+        }
+    }
+
+    window.addEventListener('resize', function(event){
+        if(window.innerWidth > 768 && showSidebar) {
+            toggleSidebar();
+        }
+    });
+</script>
+
 </html>

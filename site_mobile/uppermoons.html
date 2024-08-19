@@ -6,173 +6,235 @@
     <title>Luas superiores</title>
     <meta name="descripition" content="Descrição sobre os Luas superiores.">
     <link rel="stylesheet" href="css_mobile/style.css">
+    <link rel="stylesheet" href="css_mobile/header.css">
 </head>
 <body>
-    <section>
-        <div class="text">
-            <h2 style="color: red;">Luas Superiores</h2>
-            <img class="img_html" src="img_mobile/upper.jpg" alt="Imagem dos Luas Superiores">
-            <p class="div_par">
-                As Doze Luas Demoníacas(Doze Kizukis) são um grupo de demônios poderosos servindo a Muzan Kibutsuji, o principal antagonista da série
-                <span class="bold">"Kimetsu no Yaiba"</span>. Eles estão divididos em dois grupos principais: as Luas Superiores (com seis membros) e as Luas Inferiores
-                (também com seis membros).Nós conseguimos identificá-los pelos números em seus olhos, em que os inferiores possuem o número da sua
-                posição no seu olho esquerdo, enquanto os superiores possuem o número no esquerdo e a palavra superior no direito. Cada membro possui
-                habilidades únicas e um nível de poder significativo. As Luas Superiores se destacam em poder e em idade, há maioria deles tendo mais
-                de um século de idade, com isso eles puderam devorar muitas pessoas para aumentar seu poder e matar diversos Hashiras com o passar
-                das gerações. São divididas em um ranking pelo poder, de acordo com o Muzan.
-            </p>
+    <header>
+        <div class="header" id="header">
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+            </button>
+            <div class="logo_header">
+                <img src="img_mobile/logo_ck_png.png" class="img_logo_header" alt="Logo CK">
+            </div>
+            <div class="navigation_header" id="navigation_header">
+                <button onclick="toggleSidebar()" class="btn_icon_header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                    </svg>
+                </button>
+                <a href="index.html" class="active">Home</a>
+                <a href="sobre.html">Sobre nós</a>
+                <a href="contatos.html">Contato</a>
+            </div>
         </div>
-    </section>
-
-    <section>
-        <div class="div-cards">
-             <div class="div-card">
-               <h3>1° Superior Kokushibo</h3>
-                <img class="img_hashi" src="img_mobile/koku-up.webp" alt="Imagem do Kokushibo">
-                <p class="div_par_card">
-                    Antigamente conhecido como Michikatsu Tsugikuni, Kokushibo era um caçador de onis altamente respeitado, pertencente a Era Sengoku, sendo um dos primeiros existentes, e o irmão mais velho de
-                    Yoriichi Tsugikuni. Invejava as habilidades de seu irmão e se tornou um demônio para superar Yoriichi. Atualmente é é um dos mais
-                    poderosos e antigos demônios, sua força é tão grande que Muzan rechoce ele como um parceiro de negócios e não apenas um simples
-                    peão. Ele usa a técnica de Respiração da Lua, uma variação da Respiração do Sol, como ele passou mais de 400 anos desenvolvendo-a,
-                     essa respiração se tornou a com mais formas da história, possuindo 16 formas, e a segunda mais forte. Kokushibo é conhecido por
-                    suas habilidades excepcionais com sua espada, feita de sua própria carne, e sua imensa força.
-                    <br><span class="infor">Idade:</span> +400
-                    <br><span class="infor">Altura:</span> 190cm
-                    <br><span class="infor">Técnica:</span> Respiração da Lua e Kekkijutsu
-                    <br><span class="infor">Motivações: </span> Desejo de poder e inveja de seu irmão, procurando superar Yoriichi e alcançar maior força.
+    </header>
+    <main tabindex="0" onclick="closeSidebar()" class="content" id="content">
+        <section>
+            <div class="text">
+                <h2 style="color: red;">Luas Superiores</h2>
+                <img class="img_html" src="img_mobile/upper.jpg" alt="Imagem dos Luas Superiores">
+                <p class="div_par">
+                    As Doze Luas Demoníacas(Doze Kizukis) são um grupo de demônios poderosos servindo a Muzan Kibutsuji, o principal antagonista da série
+                    <span class="bold">"Kimetsu no Yaiba"</span>. Eles estão divididos em dois grupos principais: as Luas Superiores (com seis membros) e as Luas Inferiores
+                    (também com seis membros).Nós conseguimos identificá-los pelos números em seus olhos, em que os inferiores possuem o número da sua
+                    posição no seu olho esquerdo, enquanto os superiores possuem o número no esquerdo e a palavra superior no direito. Cada membro possui
+                    habilidades únicas e um nível de poder significativo. As Luas Superiores se destacam em poder e em idade, há maioria deles tendo mais
+                    de um século de idade, com isso eles puderam devorar muitas pessoas para aumentar seu poder e matar diversos Hashiras com o passar
+                    das gerações. São divididas em um ranking pelo poder, de acordo com o Muzan.
                 </p>
             </div>
-            <div class="div-card">
-                <h3>2° Superior Douma</h3>
-                <img class="img_hashi" src="img_mobile/douma-up.jpg" alt="Imagem do Douma">
-                <p class="div_par_card">
-                    Doma foi transformado em demônio há cerca de 110 anos. Mesmo antes disso, era cruel e manipulador, não tendo sentimento, o que fez
-                     com que ele apenas os fingisse, característica que continuou após a transformação. Ele possui um culto, muitos humanos acreditam
-                     que ele seja um hemissário divino por possuir diversas cores em seus olhos, aproveitando-se da inocência de seus fiéis e se
-                     alimentando deles constantemente. Douma é um demônio que se alimenta principalmente de mulheres, por esse e mais alguns motivos
-                     Muzan não gosta dele e o mataria se pudesse, porém Douma é forte e ele não perderia um soldado assim. Utilizando suas habilidades
-                     de gelo para torturar suas vítimas, ele consegue criar um ambiente onde seu pulmão é congelado, sendo mortal para humanos, acerca
-                     de que também possui a capacidade de criar estátuas de gele super poderosas e clones com a mesma força que ele. Seu ataque mais
-                    forte são as estátuas de gelo budistas. Possui uma relação de amizade apenas por parte dele com Akaza e uma de ódio com a Shinobu,
-                    por ser o responsável pela morte da irmã dela, a antiga Hashira das Flores, Kanae Kocho.
-                    <br><span class="infor">Idade:</span> 130
-                    <br><span class="infor">Altura:</span> 187cm
-                    <br><span class="infor">Técnica:</span> Kekkijutsu de gelo
-                    <br><span class="infor">Motivações: </span> Busca por poder e imortalidade, absorvendo a energia vital das pessoas para se fortalecer.
-                </p>
-            </div>
+        </section>
+        <section>
+            <div class="div-cards">
+                 <div class="div-card">
+                   <h3>1° Superior Kokushibo</h3>
+                    <img class="img_hashi" src="img_mobile/koku-up.webp" alt="Imagem do Kokushibo">
+                    <p class="div_par_card">
+                        Antigamente conhecido como Michikatsu Tsugikuni, Kokushibo era um caçador de onis altamente respeitado, pertencente a Era Sengoku, sendo um dos primeiros existentes, e o irmão mais velho de
+                        Yoriichi Tsugikuni. Invejava as habilidades de seu irmão e se tornou um demônio para superar Yoriichi. Atualmente é é um dos mais
+                        poderosos e antigos demônios, sua força é tão grande que Muzan rechoce ele como um parceiro de negócios e não apenas um simples
+                        peão. Ele usa a técnica de Respiração da Lua, uma variação da Respiração do Sol, como ele passou mais de 400 anos desenvolvendo-a,
+                         essa respiração se tornou a com mais formas da história, possuindo 16 formas, e a segunda mais forte. Kokushibo é conhecido por
+                        suas habilidades excepcionais com sua espada, feita de sua própria carne, e sua imensa força.
+                        <br><span class="infor">Idade:</span> +400
+                        <br><span class="infor">Altura:</span> 190cm
+                        <br><span class="infor">Técnica:</span> Respiração da Lua e Kekkijutsu
+                        <br><span class="infor">Motivações: </span> Desejo de poder e inveja de seu irmão, procurando superar Yoriichi e alcançar maior força.
+                    </p>
+                </div>
+                <div class="div-card">
+                    <h3>2° Superior Douma</h3>
+                    <img class="img_hashi" src="img_mobile/douma-up.jpg" alt="Imagem do Douma">
+                    <p class="div_par_card">
+                        Doma foi transformado em demônio há cerca de 110 anos. Mesmo antes disso, era cruel e manipulador, não tendo sentimento, o que fez
+                         com que ele apenas os fingisse, característica que continuou após a transformação. Ele possui um culto, muitos humanos acreditam
+                         que ele seja um hemissário divino por possuir diversas cores em seus olhos, aproveitando-se da inocência de seus fiéis e se
+                         alimentando deles constantemente. Douma é um demônio que se alimenta principalmente de mulheres, por esse e mais alguns motivos
+                         Muzan não gosta dele e o mataria se pudesse, porém Douma é forte e ele não perderia um soldado assim. Utilizando suas habilidades
+                         de gelo para torturar suas vítimas, ele consegue criar um ambiente onde seu pulmão é congelado, sendo mortal para humanos, acerca
+                         de que também possui a capacidade de criar estátuas de gele super poderosas e clones com a mesma força que ele. Seu ataque mais
+                        forte são as estátuas de gelo budistas. Possui uma relação de amizade apenas por parte dele com Akaza e uma de ódio com a Shinobu,
+                        por ser o responsável pela morte da irmã dela, a antiga Hashira das Flores, Kanae Kocho.
+                        <br><span class="infor">Idade:</span> 130
+                        <br><span class="infor">Altura:</span> 187cm
+                        <br><span class="infor">Técnica:</span> Kekkijutsu de gelo
+                        <br><span class="infor">Motivações: </span> Busca por poder e imortalidade, absorvendo a energia vital das pessoas para se fortalecer.
+                    </p>
+                </div>
         
-            <div class="div-card">
-                <h3>3° Superior Akaza</h3>
-                <img class="img_hashi" src="img_mobile/akaza-up.jpeg" alt="Imagem do Akaza">
-                <p class="div_par_card">
-                    Akaza, anteriormente conhecido como Hakuji, era um lutador criminoso que roubava diversas lojas para salvar seu pai, que acabou
-                    se suicidando. Foi acolhido por um homem dono de Dojo e criou um laço de amor com a fliha dele, prometendo que se casariam,
-                    entretanto ambos foram mortos envenados pelo Dojo vizinho, fazendo com que Hakuji matasse 67 pessoas com a mão limpa, despertando
-                    o interesse de Muzan e sendo transformado em oni. A partir desse momento ele busca se tornar o mais forte, sendo o único que saiu
-                    vivo após desafiar Kokushibo para uma batalha. Possui um ódio imenso por Douma, pelo sua personaliade, por ele jogar na cara de
-                    Akaza que foi tranformado depois, mas mesmo assim é mais forte que ele e principalmente pelo fato de repugnar ele devorar
-                    majoritariamente mulheres. Akaza é um dos favoritos de Muzan e tem uma permissão especial para não machucar nem devorar mulheres,
-                    pois acredita que elas devem ser protegidas, entretando odeia pessoas fracas e otimistas. Ele é conhecido por sua habilidade de
-                    combate corpo a corpo, que pode prever os movimentos do oponente e atrae eles até si, facilitando na hora de matar, justamente
-                    por isso está em busca constante por adversários fortes.
-                    <br><span class="infor">Idade:</span> 130
-                    <br><span class="infor">Altura:</span> 173cm
-                    <br><span class="infor">Técnica:</span> Kekkijutsu Jutsushiki tenkai
-                    <br><span class="infor">Motivações: </span>Desejo de desafiar adversários poderosos e se tornar mais forte através de batalhas.
-                </p>
+                <div class="div-card">
+                    <h3>3° Superior Akaza</h3>
+                    <img class="img_hashi" src="img_mobile/akaza-up.jpeg" alt="Imagem do Akaza">
+                    <p class="div_par_card">
+                        Akaza, anteriormente conhecido como Hakuji, era um lutador criminoso que roubava diversas lojas para salvar seu pai, que acabou
+                        se suicidando. Foi acolhido por um homem dono de Dojo e criou um laço de amor com a fliha dele, prometendo que se casariam,
+                        entretanto ambos foram mortos envenados pelo Dojo vizinho, fazendo com que Hakuji matasse 67 pessoas com a mão limpa, despertando
+                        o interesse de Muzan e sendo transformado em oni. A partir desse momento ele busca se tornar o mais forte, sendo o único que saiu
+                        vivo após desafiar Kokushibo para uma batalha. Possui um ódio imenso por Douma, pelo sua personaliade, por ele jogar na cara de
+                        Akaza que foi tranformado depois, mas mesmo assim é mais forte que ele e principalmente pelo fato de repugnar ele devorar
+                        majoritariamente mulheres. Akaza é um dos favoritos de Muzan e tem uma permissão especial para não machucar nem devorar mulheres,
+                        pois acredita que elas devem ser protegidas, entretando odeia pessoas fracas e otimistas. Ele é conhecido por sua habilidade de
+                        combate corpo a corpo, que pode prever os movimentos do oponente e atrae eles até si, facilitando na hora de matar, justamente
+                        por isso está em busca constante por adversários fortes.
+                        <br><span class="infor">Idade:</span> 130
+                        <br><span class="infor">Altura:</span> 173cm
+                        <br><span class="infor">Técnica:</span> Kekkijutsu Jutsushiki tenkai
+                        <br><span class="infor">Motivações: </span>Desejo de desafiar adversários poderosos e se tornar mais forte através de batalhas.
+                    </p>
+                </div>
+                <div class="div-card">
+                    <h3>4° Superior Hantengu</h3>
+                    <img class="img_hashi" src="img_mobile/hant-up.jpg" alt="Imagem do Hantengu">
+                    <p class="div_par_card">
+                        Hantengu era um assassino que botava a culpa nos outros, sendo morto e tranformado. Hantengu tem a capacidade de criar múltiplas
+                        cópias de si mesmo, até certo limite, toda vez que possui a cabeça cortado, cada uma com uma personalidade e habilidades distintas,
+                        sendo ele mesmo a emoção do medo e o corpo principal do Oni, sendo necessário apenas ele ser decapitado, as outras emoções são
+                        Alegria(voar, grito sônico), Prazer(rajadas de vento), Tristeza(lâminas energéticas) e Raiva(Relâmpago). Caso essas emoções não
+                        deêm conta, eles se juntaram em uma só para proteger o medo, o ódio que possui todas as outras habilidades e ainda a capacidade
+                        de controlar dragões de madeira enormes que podem usar os poderes de forma mais potente. Nos últimos casos a emoção da angústia
+                        aparecera, sendo um escudo para proteger o pescoço do medo. Ele usa essas múltiplas formas para confundir e atacar seus inimigos
+                        de maneiras variadas. Hantengu é conhecido por sua covardia e traição, usando suas habilidades para proteger-se e atacar de forma
+                         traiçoeira.
+                        <br><span class="infor">Idade:</span> +200
+                        <br><span class="infor">Altura:</span> 166cm
+                        <br><span class="infor">Técnica:</span> Kekkijutsu das emoções
+                        <br><span class="infor">Motivações: </span>Desejo de se proteger e sobreviver, utilizando suas múltiplas formas para enganar e atacar de maneira astuta.
+                    </p>
+                </div>
+                <div class="div-card">
+                    <h3>4° Superior Nakime</h3>
+                    <img class="img_hashi" src="img_mobile/nakime-up.jpg" alt="Imagem da Nakime">
+                    <p class="div_par_card">
+                        Nakime é a lua 4 substituta. Era uma musicista que tocava em casas de show para ganhar a vida, porém o homem com quem se casou era viciado em jogos de azar e gastou
+                         tudo o que ela tinha ganho, ela o confrontou e ele a ameaçou, mas quem estava em apuros era ele, Nakime matou-o com um martelo, indo
+                         apresentar logo em seguida, porém sem roupas boas e com o sangue na consiência ela não performou direito, sendo vaiada e saindo correndo
+                         dali, até que ouve alguém batendo palma e pedindo bis, esse era Muzan transformando-a em Oni. Ela possui a habilidade de manipular
+                         a estrutura do espaço através do poder de seu sangue demoníaco. Ela pode criar labirintos e alterar o ambiente ao seu redor,
+                         tornando-a uma adversária difícil de enfrentar. Nakime é uma demônia inteligente e perigosa, que usa suas habilidades para criar
+                         armadilhas e desafios mortais para seus inimigos.
+                        <br><span class="infor">Idade:</span> +-130
+                        <br><span class="infor">Altura:</span> Desconhecida
+                        <br><span class="infor">Técnica:</span> Kekkijutsu do Biwa
+                        <br><span class="infor">Motivações: </span>Criar caos e confundir seus adversários, usando suas habilidades para controlar o ambiente e
+                         manter-se segura em combate e orgulhar Muzan.
+                    </p>
+                </div>
+                <div class="div-card">
+                    <h3>5° Superior Gyokko</h3>
+                    <img class="img_hashi" src="img_mobile/gyo-up.jpeg" alt="Imagem do Gyokko">
+                    <p class="div_par_card">
+                        Gyoko um homem sádico que gostava de ver sangue e via como arte, transformando-se em one. Era um demônio cruel que possuía
+                        habilidades relacionadas à manipulação de água. Ele tem uma aparência grotesca e pode criar ataques baseados em água, o que o
+                        torna um adversário perigoso e imprevisível. Gyoko é conhecido por sua natureza calculista e seu desejo de causar sofrimento.
+                        Quando ameaçado ele se tranforma em uma espécie de oni meio homem e meio peixe, nessa forma ele possui um ataque muito forte,
+                        que faz com tudo que ele toque vire peixes.
+                        <br><span class="infor">Idade:</span> +113
+                        <br><span class="infor">Altura:</span> 150 normal e 170 tranformado
+                        <br><span class="infor">Técnica:</span> Kekkijutsu do vaso
+                        <br><span class="infor">Motivações: </span>Causar sofrimento e manter seu poder. Sua crueldade é evidente em suas ações e em
+                        seu desejo de manipular e torturar suas vítimas.
+                    </p>
+                </div>
+                <div class="div-card">
+                    <h3>6° Superior Daki e Gyutaro</h3>
+                    <img class="img_hashi" src="img_mobile/dkgy-up.webp" alt="Imagem da Daki e Gyutaro">
+                    <p class="div_par_card">
+                        Daki e Gyutaro são irmãos, nascidos no distrito do entretenimentos, onde a beleza pe muita importante. Gyutaro desde que nasceu
+                        era horrível e desprezado por todos, até o momento em que sua irmã nasceu, Ume, ela era linda e ele sentia muito orgulho delha.
+                        Com o passar dos anos eles foram crescendo e Ume começou a trabalhar como Oiran, enquanto Gyutaro cobrava o serviço. Um dia Ume
+                        escutou um homem falando mal de seu irmão, então ela decidiu furar o olho dele com um alfinete, em resposta ela foi tacada na
+                        fogueira e queimada viva, quando Gyutaro que tinha saido viu o que aocnteceu, ficou desesperado e matou todos, após começou a
+                        andar com sua irmã no colo pela cidade, até encontrarem com Douma, na época Lua Superior 6, que decidiu ajudar os irmãos apenas
+                        para tentar fingir que se importava, tranformando-os. Gyutaro era um demônio cruel que lutava por sobrevivência e poder. Ele
+                        possui habilidades de combate corpo a corpo e utiliza suas técnicas ofensivas brutais, com foices feitas de sua carne e veneno
+                        feito de seu sangue. Daki pode criar e manipular faixas para atacar suas vítimas. Ela tem uma personalidade dominante e busca
+                        poder para estabelecer seu domínio. Ambos juntos mataram mais de 25 hashiras e uma curiosidade é que para serem mortos devem ter
+                        a cabeça cortada ao mesmo tempo. Muzan odeia Daki e diz que ela é fraca pelas costas delas, que se não fosse por ela o Gyutaro já
+                         estaria mais alto no ranking.
+                         <br><span class="infor">Idade:</span> 120 e 113
+                         <br><span class="infor">Altura:</span> Provavelmente 1,95 e 1,70cm
+                         <br><span class="infor">Técnica:</span> Kekkijutsu do veneno e das faixas
+                         <br><span class="infor">Motivações: </span>Causar sofrimento e manter seu poder. Sua crueldade é evidente em suas ações e em
+                         seu desejo de manipular e torturar suas vítimas.
+                    </p>
+                </div>
+                <div class="div-card">
+                    <h3>6° Superior Kaigaku</h3>
+                    <img class="img_hashi" src="img_mobile/kaigaku-up.jpg" alt="Imagem do Kaigaku">
+                    <p class="div_par_card">
+                        Kaigaku era um ex-aluno de Gyomei Himejima e foi transformado em demônio por Kokushibo, após ter dado de cara com ele e implorado
+                        para não morrer. Ele usa a técnica de Respiração do Trovão, semelhante à de Zenitsu Agatsuma, mas com uma abordagem mais brutal.
+                        Kaigaku é conhecido por sua crueldade e busca constante por poder, tentando se provar superior aos outros.
+                        <br><span class="infor">Idade:</span> 19
+                        <br><span class="infor">Altura:</span>1,67
+                        <br><span class="infor">Técnica:</span> Respiração do trovão e Kekkijutsu.
+                        <br><span class="infor">Motivações: </span>Buscar poder e reconhecimento, e sua crueldade é um reflexo de seu desejo de se destacar e demonstrar sua força.
+                    </p>
+                </div>
             </div>
-            <div class="div-card">
-                <h3>4° Superior Hantengu</h3>
-                <img class="img_hashi" src="img_mobile/hant-up.jpg" alt="Imagem do Hantengu">
-                <p class="div_par_card">
-                    Hantengu era um assassino que botava a culpa nos outros, sendo morto e tranformado. Hantengu tem a capacidade de criar múltiplas
-                    cópias de si mesmo, até certo limite, toda vez que possui a cabeça cortado, cada uma com uma personalidade e habilidades distintas,
-                    sendo ele mesmo a emoção do medo e o corpo principal do Oni, sendo necessário apenas ele ser decapitado, as outras emoções são
-                    Alegria(voar, grito sônico), Prazer(rajadas de vento), Tristeza(lâminas energéticas) e Raiva(Relâmpago). Caso essas emoções não
-                    deêm conta, eles se juntaram em uma só para proteger o medo, o ódio que possui todas as outras habilidades e ainda a capacidade
-                    de controlar dragões de madeira enormes que podem usar os poderes de forma mais potente. Nos últimos casos a emoção da angústia
-                    aparecera, sendo um escudo para proteger o pescoço do medo. Ele usa essas múltiplas formas para confundir e atacar seus inimigos
-                    de maneiras variadas. Hantengu é conhecido por sua covardia e traição, usando suas habilidades para proteger-se e atacar de forma
-                     traiçoeira.
-                    <br><span class="infor">Idade:</span> +200
-                    <br><span class="infor">Altura:</span> 166cm
-                    <br><span class="infor">Técnica:</span> Kekkijutsu das emoções
-                    <br><span class="infor">Motivações: </span>Desejo de se proteger e sobreviver, utilizando suas múltiplas formas para enganar e atacar de maneira astuta.
-                </p>
-            </div>
-            <div class="div-card">
-                <h3>4° Superior Nakime</h3>
-                <img class="img_hashi" src="img_mobile/nakime-up.jpg" alt="Imagem da Nakime">
-                <p class="div_par_card">
-                    Nakime é a lua 4 substituta. Era uma musicista que tocava em casas de show para ganhar a vida, porém o homem com quem se casou era viciado em jogos de azar e gastou
-                     tudo o que ela tinha ganho, ela o confrontou e ele a ameaçou, mas quem estava em apuros era ele, Nakime matou-o com um martelo, indo
-                     apresentar logo em seguida, porém sem roupas boas e com o sangue na consiência ela não performou direito, sendo vaiada e saindo correndo
-                     dali, até que ouve alguém batendo palma e pedindo bis, esse era Muzan transformando-a em Oni. Ela possui a habilidade de manipular
-                     a estrutura do espaço através do poder de seu sangue demoníaco. Ela pode criar labirintos e alterar o ambiente ao seu redor,
-                     tornando-a uma adversária difícil de enfrentar. Nakime é uma demônia inteligente e perigosa, que usa suas habilidades para criar
-                     armadilhas e desafios mortais para seus inimigos.
-                    <br><span class="infor">Idade:</span> +-130
-                    <br><span class="infor">Altura:</span> Desconhecida
-                    <br><span class="infor">Técnica:</span> Kekkijutsu do Biwa
-                    <br><span class="infor">Motivações: </span>Criar caos e confundir seus adversários, usando suas habilidades para controlar o ambiente e
-                     manter-se segura em combate e orgulhar Muzan.
-                </p>
-            </div>
-            <div class="div-card">
-                <h3>5° Superior Gyokko</h3>
-                <img class="img_hashi" src="img_mobile/gyo-up.jpeg" alt="Imagem do Gyokko">
-                <p class="div_par_card">
-                    Gyoko um homem sádico que gostava de ver sangue e via como arte, transformando-se em one. Era um demônio cruel que possuía
-                    habilidades relacionadas à manipulação de água. Ele tem uma aparência grotesca e pode criar ataques baseados em água, o que o
-                    torna um adversário perigoso e imprevisível. Gyoko é conhecido por sua natureza calculista e seu desejo de causar sofrimento.
-                    Quando ameaçado ele se tranforma em uma espécie de oni meio homem e meio peixe, nessa forma ele possui um ataque muito forte,
-                    que faz com tudo que ele toque vire peixes.
-                    <br><span class="infor">Idade:</span> +113
-                    <br><span class="infor">Altura:</span> 150 normal e 170 tranformado
-                    <br><span class="infor">Técnica:</span> Kekkijutsu do vaso
-                    <br><span class="infor">Motivações: </span>Causar sofrimento e manter seu poder. Sua crueldade é evidente em suas ações e em
-                    seu desejo de manipular e torturar suas vítimas.
-                </p>
-            </div>
-            <div class="div-card">
-                <h3>6° Superior Daki e Gyutaro</h3>
-                <img class="img_hashi" src="img_mobile/dkgy-up.webp" alt="Imagem da Daki e Gyutaro">
-                <p class="div_par_card">
-                    Daki e Gyutaro são irmãos, nascidos no distrito do entretenimentos, onde a beleza pe muita importante. Gyutaro desde que nasceu
-                    era horrível e desprezado por todos, até o momento em que sua irmã nasceu, Ume, ela era linda e ele sentia muito orgulho delha.
-                    Com o passar dos anos eles foram crescendo e Ume começou a trabalhar como Oiran, enquanto Gyutaro cobrava o serviço. Um dia Ume
-                    escutou um homem falando mal de seu irmão, então ela decidiu furar o olho dele com um alfinete, em resposta ela foi tacada na
-                    fogueira e queimada viva, quando Gyutaro que tinha saido viu o que aocnteceu, ficou desesperado e matou todos, após começou a
-                    andar com sua irmã no colo pela cidade, até encontrarem com Douma, na época Lua Superior 6, que decidiu ajudar os irmãos apenas
-                    para tentar fingir que se importava, tranformando-os. Gyutaro era um demônio cruel que lutava por sobrevivência e poder. Ele
-                    possui habilidades de combate corpo a corpo e utiliza suas técnicas ofensivas brutais, com foices feitas de sua carne e veneno
-                    feito de seu sangue. Daki pode criar e manipular faixas para atacar suas vítimas. Ela tem uma personalidade dominante e busca
-                    poder para estabelecer seu domínio. Ambos juntos mataram mais de 25 hashiras e uma curiosidade é que para serem mortos devem ter
-                    a cabeça cortada ao mesmo tempo. Muzan odeia Daki e diz que ela é fraca pelas costas delas, que se não fosse por ela o Gyutaro já
-                     estaria mais alto no ranking.
-                     <br><span class="infor">Idade:</span> 120 e 113
-                     <br><span class="infor">Altura:</span> Provavelmente 1,95 e 1,70cm
-                     <br><span class="infor">Técnica:</span> Kekkijutsu do veneno e das faixas
-                     <br><span class="infor">Motivações: </span>Causar sofrimento e manter seu poder. Sua crueldade é evidente em suas ações e em
-                     seu desejo de manipular e torturar suas vítimas.
-                </p>
-            </div>
-            <div class="div-card">
-                <h3>6° Superior Kaigaku</h3>
-                <img class="img_hashi" src="img_mobile/kaigaku-up.jpg" alt="Imagem do Kaigaku">
-                <p class="div_par_card">
-                    Kaigaku era um ex-aluno de Gyomei Himejima e foi transformado em demônio por Kokushibo, após ter dado de cara com ele e implorado
-                    para não morrer. Ele usa a técnica de Respiração do Trovão, semelhante à de Zenitsu Agatsuma, mas com uma abordagem mais brutal.
-                    Kaigaku é conhecido por sua crueldade e busca constante por poder, tentando se provar superior aos outros.
-                    <br><span class="infor">Idade:</span> 19
-                    <br><span class="infor">Altura:</span>1,67
-                    <br><span class="infor">Técnica:</span> Respiração do trovão e Kekkijutsu.
-                    <br><span class="infor">Motivações: </span>Buscar poder e reconhecimento, e sua crueldade é um reflexo de seu desejo de se destacar e demonstrar sua força.
-                </p>
-            </div>
-        </div>
-    </section> 
+        </section>
+    </main>
 
 </body>
+
+<script>
+    var header = document.getElementById('header');
+    var navigationHeader = document.getElementById('navigation_header')
+    var content = document.getElementById('content')
+    var showSidebar = false;
+
+    function toggleSidebar ()
+    {
+        showSidebar = !showSidebar;
+        if(showSidebar)
+        {
+            navigationHeader.style.marginLeft = '-10vw';
+            navigationHeader.style.animationName = 'showSidebar';
+            content.style.filter = 'blur(2px)'
+        }
+        else {
+            navigationHeader.style.marginLeft = '-100vw';
+            navigationHeader.style.animationName = '';
+            content.style.filter = ''
+        }
+    }
+
+    function closeSidebar() 
+    {
+        if(showSidebar)
+        {
+            toggleSidebar();
+        }
+    }
+
+    window.addEventListener('resize', function(event){
+        if(window.innerWidth > 768 && showSidebar) {
+            toggleSidebar();
+        }
+    });
+</script>
+
 </html>

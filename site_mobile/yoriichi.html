@@ -6,70 +6,131 @@
     <title>Yoriichi</title>
     <meta name="descripition" content="Página apresentando os personagens mais importantes para a história do anime.">
     <link rel="stylesheet" href="css_mobile/style.css">
+    <link rel="stylesheet" href="css_mobile/header.css">
 </head>
 <body>
-
-    <section>
-        <div class="text">
-            <h2 style="color: red;">Yoriichi Tsugikuni</h2>
-            <img class="img_html" src="img_mobile/yoriichi_inicio.jpg" alt="Imagem do Yoriichi">
-            <p class="div_par">
-                Yoriichi Tsugikuni é uma das figuras mais emblemáticas e misteriosas de Demon Slayer (Kimetsu no Yaiba), considerado o maior caçador
-                de demônios de todos os tempos e a única pessoa a ter representado uma ameaça real ao temido Muzan Kibutsuji. Sua história é marcada
-                por uma tragédia profunda, contrastada por uma força e habilidades incomparáveis, que deixaram um legado indelével no mundo dos
-                caçadores de demônios.
-            </p>
+    <header>
+        <div class="header" id="header">
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+            </button>
+            <div class="logo_header">
+                <img src="img_mobile/logo_ck_png.png" class="img_logo_header" alt="Logo CK">
+            </div>
+            <div class="navigation_header" id="navigation_header">
+                <button onclick="toggleSidebar()" class="btn_icon_header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                    </svg>
+                </button>
+                <a href="index.html" class="active">Home</a>
+                <a href="sobre.html">Sobre nós</a>
+                <a href="contatos.html">Contato</a>
+            </div>
         </div>
-    </section>
-
-    <section>
-        <div class="div-cards">
-            <div class="div-card">
-              <h3>Yoriichi</h3>
-               <img class="img_yoriichi" src="img_mobile/yoriichi_texto.jpg" alt="Imagem do yoriichi">
-               <p class="div_par_card">
-                    <span class="bold">Origem e Juventude - </span>
-                    Yoriichi nasceu durante o Período Sengoku, uma era de grande conflito no Japão, em uma família de espadachins habilidosos. Desde seu
-                    nascimento, ele foi visto como uma criança estranha e abençoada com um talento incomum. Diferente de seu irmão gêmeo, Michikatsu,
-                    Yoriichi nasceu com uma marca peculiar na testa, considerada um mau presságio por sua família. No entanto, essa marca era na verdade
-                    um sinal de sua incrível habilidade e sensibilidade espiritual.
-                    Desde muito jovem, Yoriichi demonstrou uma força e agilidade sobre-humanas, além de uma intuição extraordinária para o combate. Ele
-                    também desenvolveu naturalmente o Hinokami Kagura, a Dança do Deus do Fogo, que mais tarde seria reconhecida como a técnica original
-                    de Respiração do Sol, a mais poderosa entre todas as técnicas de respiração usadas pelos caçadores de demônios.
-                    <br> <span  class="parag_index">o</span>
-                    <br><span class="bold">A Relação com Muzan Kibutsuji - </span>
-                    Yoriichi é o único caçador de demônios que chegou perto de destruir Muzan Kibutsuji. Quando eles se enfrentaram pela primeira vez,
-                    Yoriichi conseguiu identificar os pontos fracos de Muzan em um instante, usando sua Respiração do Sol para desferir golpes precisos
-                    que quase aniquilaram o Rei dos Demônios. No entanto, Muzan conseguiu escapar ao se dividir em várias partes, uma manobra desesperada
-                    que garantiu sua sobrevivência. Esse encontro marcou profundamente Muzan, deixando-o aterrorizado pela possibilidade de enfrentar
-                    Yoriichi novamente.
-                    <br> <span  class="parag_index">o</span>
-                    <br><span class="bold">Tristeza e Solidão - </span>
-                    Apesar de sua incrível força, a vida de Yoriichi foi marcada por tragédias pessoais. Sua habilidade incomparável e a marca que
-                    carregava o isolavam das outras pessoas, incluindo seu próprio irmão, Michikatsu, que sucumbiu à inveja e acabou se tornando um
-                    demônio, assumindo o nome de Kokushibo, uma das Luas Superiores. A perda de sua família e a traição de seu irmão foram golpes
-                    devastadores para Yoriichi, que passou o resto de sua vida lutando contra demônios, mas sempre carregando o peso dessas tragédias.
-                    Yoriichi nunca perdeu sua bondade e compaixão, ajudando a criar a organização dos Caçadores de Demônios e ensinando suas técnicas
-                    para aqueles que estariam dispostos a enfrentar o mal. No entanto, sua habilidade era tão singular que poucos puderam aprender
-                    completamente sua técnica, e a Respiração do Sol foi diluída em diversas outras formas de respiração ao longo dos séculos.
-                    <br> <span  class="parag_index">o</span>
-                    <br><span class="bold">Legado - </span>
-                    O legado de Yoriichi é imortalizado não apenas em sua quase vitória sobre Muzan, mas também na criação das técnicas de respiração que
-                    formaram a base da luta contra os demônios. A espada de Yoriichi, que possuía a cor vermelha característica, tornou-se um símbolo de
-                    esperança e poder entre os caçadores de demônios. Mesmo séculos após sua morte, sua presença ainda era sentida, especialmente através 
-                    de Tanjiro Kamado, que herdou a Dança do Deus do Fogo de sua família.
-                    Yoriichi é um personagem trágico, cuja vida foi definida por sua imensa força e igualmente grande solidão. Sua história é um lembrete
-                    do fardo que vem com o poder, e de como mesmo aqueles abençoados com habilidades extraordinárias podem sofrer profundamente. Em
-                    última análise, Yoriichi é lembrado como o caçador de demônios mais forte e virtuoso, cuja vida e legado deixaram uma marca indelével
-                    no mundo de Demon Slayer.
-                   <br><span class="infor">Motivações: </span> Derrotar Muzan e parar seu irmão
-                   <br><span class="infor">Técnica:</span> Respiração do Sol
-                   <br><span class="infor">Altura:</span> 190cm
-                   <br><span class="infor">Idade:</span> Morreu com mais de 80
-               </p>
-           </div>
-        </div>
-    </section>
+    </header>
+    <main tabindex="0" onclick="closeSidebar()" class="content" id="content">
+        <section>
+            <div class="text">
+                <h2 style="color: red;">Yoriichi Tsugikuni</h2>
+                <img class="img_html" src="img_mobile/yoriichi_inicio.jpg" alt="Imagem do Yoriichi">
+                <p class="div_par">
+                    Yoriichi Tsugikuni é uma das figuras mais emblemáticas e misteriosas de Demon Slayer (Kimetsu no Yaiba), considerado o maior caçador
+                    de demônios de todos os tempos e a única pessoa a ter representado uma ameaça real ao temido Muzan Kibutsuji. Sua história é marcada
+                    por uma tragédia profunda, contrastada por uma força e habilidades incomparáveis, que deixaram um legado indelével no mundo dos
+                    caçadores de demônios.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="div-cards">
+                <div class="div-card">
+                  <h3>Yoriichi</h3>
+                   <img class="img_yoriichi" src="img_mobile/yoriichi_texto.jpg" alt="Imagem do yoriichi">
+                   <p class="div_par_card">
+                        <span class="bold">Origem e Juventude - </span>
+                        Yoriichi nasceu durante o Período Sengoku, uma era de grande conflito no Japão, em uma família de espadachins habilidosos. Desde seu
+                        nascimento, ele foi visto como uma criança estranha e abençoada com um talento incomum. Diferente de seu irmão gêmeo, Michikatsu,
+                        Yoriichi nasceu com uma marca peculiar na testa, considerada um mau presságio por sua família. No entanto, essa marca era na verdade
+                        um sinal de sua incrível habilidade e sensibilidade espiritual.
+                        Desde muito jovem, Yoriichi demonstrou uma força e agilidade sobre-humanas, além de uma intuição extraordinária para o combate. Ele
+                        também desenvolveu naturalmente o Hinokami Kagura, a Dança do Deus do Fogo, que mais tarde seria reconhecida como a técnica original
+                        de Respiração do Sol, a mais poderosa entre todas as técnicas de respiração usadas pelos caçadores de demônios.
+                        <br> <span  class="parag_index">o</span>
+                        <br><span class="bold">A Relação com Muzan Kibutsuji - </span>
+                        Yoriichi é o único caçador de demônios que chegou perto de destruir Muzan Kibutsuji. Quando eles se enfrentaram pela primeira vez,
+                        Yoriichi conseguiu identificar os pontos fracos de Muzan em um instante, usando sua Respiração do Sol para desferir golpes precisos
+                        que quase aniquilaram o Rei dos Demônios. No entanto, Muzan conseguiu escapar ao se dividir em várias partes, uma manobra desesperada
+                        que garantiu sua sobrevivência. Esse encontro marcou profundamente Muzan, deixando-o aterrorizado pela possibilidade de enfrentar
+                        Yoriichi novamente.
+                        <br> <span  class="parag_index">o</span>
+                        <br><span class="bold">Tristeza e Solidão - </span>
+                        Apesar de sua incrível força, a vida de Yoriichi foi marcada por tragédias pessoais. Sua habilidade incomparável e a marca que
+                        carregava o isolavam das outras pessoas, incluindo seu próprio irmão, Michikatsu, que sucumbiu à inveja e acabou se tornando um
+                        demônio, assumindo o nome de Kokushibo, uma das Luas Superiores. A perda de sua família e a traição de seu irmão foram golpes
+                        devastadores para Yoriichi, que passou o resto de sua vida lutando contra demônios, mas sempre carregando o peso dessas tragédias.
+                        Yoriichi nunca perdeu sua bondade e compaixão, ajudando a criar a organização dos Caçadores de Demônios e ensinando suas técnicas
+                        para aqueles que estariam dispostos a enfrentar o mal. No entanto, sua habilidade era tão singular que poucos puderam aprender
+                        completamente sua técnica, e a Respiração do Sol foi diluída em diversas outras formas de respiração ao longo dos séculos.
+                        <br> <span  class="parag_index">o</span>
+                        <br><span class="bold">Legado - </span>
+                        O legado de Yoriichi é imortalizado não apenas em sua quase vitória sobre Muzan, mas também na criação das técnicas de respiração que
+                        formaram a base da luta contra os demônios. A espada de Yoriichi, que possuía a cor vermelha característica, tornou-se um símbolo de
+                        esperança e poder entre os caçadores de demônios. Mesmo séculos após sua morte, sua presença ainda era sentida, especialmente através
+                        de Tanjiro Kamado, que herdou a Dança do Deus do Fogo de sua família.
+                        Yoriichi é um personagem trágico, cuja vida foi definida por sua imensa força e igualmente grande solidão. Sua história é um lembrete
+                        do fardo que vem com o poder, e de como mesmo aqueles abençoados com habilidades extraordinárias podem sofrer profundamente. Em
+                        última análise, Yoriichi é lembrado como o caçador de demônios mais forte e virtuoso, cuja vida e legado deixaram uma marca indelével
+                        no mundo de Demon Slayer.
+                       <br><span class="infor">Motivações: </span> Derrotar Muzan e parar seu irmão
+                       <br><span class="infor">Técnica:</span> Respiração do Sol
+                       <br><span class="infor">Altura:</span> 190cm
+                       <br><span class="infor">Idade:</span> Morreu com mais de 80
+                   </p>
+               </div>
+            </div>
+        </section>
+    </main>
        
 </body>
+
+<script>
+    var header = document.getElementById('header');
+    var navigationHeader = document.getElementById('navigation_header')
+    var content = document.getElementById('content')
+    var showSidebar = false;
+
+    function toggleSidebar ()
+    {
+        showSidebar = !showSidebar;
+        if(showSidebar)
+        {
+            navigationHeader.style.marginLeft = '-10vw';
+            navigationHeader.style.animationName = 'showSidebar';
+            content.style.filter = 'blur(2px)'
+        }
+        else {
+            navigationHeader.style.marginLeft = '-100vw';
+            navigationHeader.style.animationName = '';
+            content.style.filter = ''
+        }
+    }
+
+    function closeSidebar() 
+    {
+        if(showSidebar)
+        {
+            toggleSidebar();
+        }
+    }
+
+    window.addEventListener('resize', function(event){
+        if(window.innerWidth > 768 && showSidebar) {
+            toggleSidebar();
+        }
+    });
+</script>
+
 </html>
