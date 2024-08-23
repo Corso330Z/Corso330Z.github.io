@@ -1,14 +1,14 @@
 :root {
     --color-fundo: rgb(55, 55, 55);
     --color-white: #fff;
-    --color-ancora: #b040ff;
+    --color-ancora: rgb(11, 170, 190);
     --color-dark1: #272727;
     --color-dark2: #2d2d2d;
     --color-dark3: #414141;
     --color-dark4: #1c1c1c;
     --color-dark5: #343434;
 }
-
+/* #b040ff */
 
 
 .img_logo_header {
