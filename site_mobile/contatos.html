@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="css_mobile/style1.css">
+    <link rel="stylesheet" href="css_mobile/header.css">
+    <link rel="stylesheet" href="css_mobile/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <header>
+        <div class="header" id="header">
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+            </button>
+            <div class="logo_header">
+                <img src="img_mobile/logo_ck_png.png" class="img_logo_header" alt="Logo CK">
+            </div>
+            <div class="navigation_header" id="navigation_header">
+                <button onclick="toggleSidebar()" class="btn_icon_header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                    </svg>
+                </button>
+                <a href="index.html" class="active">Home</a>
+                <a href="sobre.html">Sobre nós</a>
+                <a href="contatos.html">Contato</a>
+            </div>
+        </div>
+    </header>
+        
+    <main tabindex="0" onclick="closeSidebar()" class="content" id="content">
+        <section>
+            <div class="text">
+                <h2 style="color: red;">Contato</h2>
+            </div>
+        </section>
+        <section>
+            <div class="div-card-contato">
+                <div class="div-card_contato">
+                    <img class="img_contato" src="img_mobile/corso.jpeg" alt="Imagem do criador do site">
+                </div>
+                <div class="div-card_contato">
+                    <p class="div_par_card_index">
+                        Olá! Eu sou João Corso, criador deste site dedicado a Demon Slayer: Kimetsu no Yaiba. Como alguém que gosta do anime,
+                        criei este espaço para compartilhar informações, curiosidades e tudo que envolve esse incrível universo. Espero que você
+                        aproveite sua visita e se sinta curioso para assistir ou ler sobre o mundo de Demon Slayer!
+                        <br> <span class="parag_index">o</span>
+                        <br>Telefone para contato: (69) 4002-8922
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="medias-sociais">
+            <a class="link_footer" href="https://github.com/Corso330Z"><i class="fa-brands fa-github"></i></a>
+            <a class="link_footer" href="https://www.instagram.com/joao.corso.54/"><i class="fa-brands fa-instagram"></i></a>
+            <a class="link_footer" href="https://www.facebook.com/joao.corso.54?locale=pt_BR"><i class="fa-brands fa-facebook"></i></a>
+            <a class="link_footer" href="https://www.tiktok.com/@joaocorso7"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+        <ul class="links">
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="sobre.html">Sobre</a> </li>
+            <li> <a href="contatos.html">Contato</a> </li>
+        </ul>
+        <div class="line"></div>
+        <p class="copyright">
+            Joãocorso@2024
+        </p>
+    </footer>
+
+</body>
+
+<script>
+    var header = document.getElementById('header');
+    var navigationHeader = document.getElementById('navigation_header')
+    var content = document.getElementById('content')
+    var showSidebar = false;
+
+    function toggleSidebar ()
+    {
+        showSidebar = !showSidebar;
+        if(showSidebar)
+        {
+            navigationHeader.style.marginLeft = '-10vw';
+            navigationHeader.style.animationName = 'showSidebar';
+        }
+        else {
+            navigationHeader.style.marginLeft = '-100vw';
+            navigationHeader.style.animationName = '';
+            content.style.filter = ''
+        }
+    }
+
+    function closeSidebar() 
+    {
+        if(showSidebar)
+        {
+            toggleSidebar();
+        }
+    }
+
+    window.addEventListener('resize', function(event){
+        if(window.innerWidth > 768 && showSidebar) {
+            toggleSidebar();
+        }
+    });
+</script>
+
+</html>

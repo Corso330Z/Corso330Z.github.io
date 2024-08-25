@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css_mobile/header.css">
+    <link rel="stylesheet" href="css_mobile/style1.css">
 </head>
 <body>
     <header>
@@ -29,9 +30,10 @@
             </div>
         </div>
     </header>
-    <div tabindex="0" onclick="closeSidebar()" class="content" id="content">
-        <h1>Menu responsivo - Corso</h1>
-    </div>
+    <main tabindex="0" onclick="closeSidebar()" class="content" id="content">
+        <p>Menu responsivo - Corso</p>
+    </main>
+
 </body>
 
 <script>
@@ -47,7 +49,6 @@
         {
             navigationHeader.style.marginLeft = '-10vw';
             navigationHeader.style.animationName = 'showSidebar';
-            content.style.filter = 'blur(2px)'
         }
         else {
             navigationHeader.style.marginLeft = '-100vw';
