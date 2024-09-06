@@ -33,19 +33,32 @@
 }
 
 .navigation_header {
-    gap: 3em;
     z-index: 2;
 }
 
 .navigation_header a {
     text-decoration: none;
-    color: var(--color-ancora);
     transition: 1s;
     font-weight: bold;
 }
 
 .navigation_header a:hover {
     color: var(--color-white);
+}
+
+.nav-list {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.li-list {
+    padding: 0px 30px;
+    justify-content: center;
+}
+
+.li-list a {
+    color: rgb(11, 170, 190);
 }
 
 .active {
@@ -81,6 +94,12 @@
         padding: 1em;
         animation-duration: 1s;
         margin-left: -100vw;
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0px;
+        gap: 2rem;
     }
 }
 
