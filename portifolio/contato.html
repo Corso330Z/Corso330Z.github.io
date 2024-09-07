@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css_porti/header.css">
+    <link rel="stylesheet" href="css_porti/style1.css">
+    <link rel="stylesheet" href="css_porti/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Contato</title>
 </head>
 <body>
@@ -27,7 +30,7 @@
                     <ul class="nav-list">
                         <li class="li-list"><a href="index.html" class="active">Home</a></li>
                         <li class="li-list"><a href="sobre.html">Sobre</a></li>
-                        <li class="li-list"><a href="sobre.html">Projetos</a></li>
+                        <li class="li-list"><a href="projetos.html">Projetos</a></li>
                         <li class="li-list"><a href="contato.html">Contato</a></li>
                     </ul>
                 </nav>
@@ -36,8 +39,45 @@
     </header>
 
     <main tabindex="0" onclick="closeSidebar()" class="content" id="content">
-
+        <section>
+            <div class="div-cads-cont">
+                <div class="contact-form">
+                    <h2>Contato</h2>
+                    <p>Para entrar em contato, digite as informações necessárias:</p>
+                    <form action="processa_formulario.php" method="post">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+            
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+            
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="medias-sociais">
+            <a class="link_footer" href="https://github.com/Corso330Z"><i class="fa-brands fa-github"></i></a>
+            <a class="link_footer" href="https://www.instagram.com/joao.corso.54/"><i class="fa-brands fa-instagram"></i></a>
+            <a class="link_footer" href="https://www.facebook.com/joao.corso.54?locale=pt_BR"><i class="fa-brands fa-facebook"></i></a>
+            <a class="link_footer" href="https://www.tiktok.com/@joaocorso7"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+        <ul class="links">
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="sobre.html">Sobre nós</a> </li>
+            <li> <a href="contatos.html">Contato</a> </li>
+        </ul>
+        <div class="line"></div>
+        <p style="color: gainsboro;" class="copyright">
+            Joãocorso@2024
+        </p>
+    </footer>
 
 </body>
 

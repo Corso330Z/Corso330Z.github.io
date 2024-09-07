@@ -106,6 +106,8 @@
     .nav-list {
         display: flex;
         flex-direction: column;
+        justify-content: center; /* Alinha horizontalmente */
+        align-items: center;
         margin: 30px 0px;
         gap: 2rem;
     }

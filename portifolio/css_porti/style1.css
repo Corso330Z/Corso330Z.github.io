@@ -1,27 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nerko+One&family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Macondo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nerko+One&family=Protest+Guerrilla&display=swap');
+
+body {
+    background-color: rgb(20, 24, 20);
+    margin: 0;
+    padding: 0;
+}
 
 .div-cards {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 120px;
+    margin-top: 100px;
+    margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center; /* Alinha horizontalmente */
     align-items: center;
-    gap: 1.5rem;
+    gap: 0.5rem;
 }
 
 .div-card {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 100%;
-    align-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .p_index {
-    font-family: Arial, sans-serif;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 28px;
     text-align: center;
+    color: gainsboro;
+}
+
+.text-index {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 3%;
+}
+
+.text-index:hover {
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    transform: scale(1.20,1.20);
 }
 
 .sub_p {
@@ -34,8 +64,173 @@
 .corso_img {
     max-width: 300px;
     width: 90%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 
+.div-title {
+    width: 60%;
+    margin: 150px 20% 20px 20%;
+}
+
+.div-cards-sobre {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.div-card-sobre {
+    width: 65%;
+    margin: 5px 17.5% 10px 17.5%;
+    background-color: rgb(108, 108, 108);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.title {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(43, 104, 226);
+    text-align: center;
+    line-height: 30px;
+    font-size: 35px;
+}
+
+.text-sobre {
+    font-family: "SUSE", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: gainsboro;
+    text-align: center;
+    padding: 15px;
+}
+
+.skip_line {
+    color: rgb(108, 108, 108);
+}
+
+.div-card-proj {
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-card-proj {
+    background-color: rgb(108, 108, 108);
+    border: 10px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+
+
+.div-card-proj h2{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.text_proj {
+    width: 90%;
+    margin-left: 2%;
+    margin-right: 8%;
+    margin-top: 10px;
+}
+
+.p_proj {
+    font-family: "Nerko One", cursive;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(15, 15, 15);
+}
+
+.a_proj {
+    text-decoration: none;
+    font-family: "Nerko One", cursive;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.pa_proj {
+    font-family: "Nerko One", cursive;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 5px;
+    color: black;
+}
+
+.info_prof {
+    font-family: "Nerko One", cursive;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 5px;
+    color: rgb(198, 13, 13);
+}
+
+.a_proj:hover {
+    color: chartreuse;
+}
+
+.div-card-proj:hover {
+    outline: dotted red;
+}
+
+.div-cads-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.contact-form {
+    width: 90%;
+    background-color: #e3e3e3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    margin-bottom: 10px;
+}
 p {
-    color: #000;
+    margin-bottom: 20px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
 }
