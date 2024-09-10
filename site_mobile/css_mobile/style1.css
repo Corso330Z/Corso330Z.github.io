@@ -309,3 +309,15 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+.div-card-sobre {
+    width: 50vw;
+    margin-left: 24vw;
+    margin-right: 24vw;
+    border: 10px solid gray;
+    border-radius: 8px;
+    align-items: center;
+    padding: 7px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
